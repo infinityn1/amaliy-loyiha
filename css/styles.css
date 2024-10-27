@@ -883,6 +883,16 @@ a {
   background-repeat: no-repeat;
 }
 
+.talk-img {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDBweCIgdmlld0JveD0iMCAwIDEyODAgMTQwIiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxnIGZpbGw9IiNmZmZmZmYiPjxwYXRoIGQ9Ik0xMjgwIDMuNEMxMDUwLjU5IDE4IDEwMTkuNCA4NC44OSA3MzQuNDIgODQuODljLTMyMCAwLTMyMC04NC4zLTY0MC04NC4zQzU5LjQuNTkgMjguMiAxLjYgMCAzLjRWMTQwaDEyODB6IiBmaWxsLW9wYWNpdHk9Ii4zIi8+PHBhdGggZD0iTTAgMjQuMzFjNDMuNDYtNS42OSA5NC41Ni05LjI1IDE1OC40Mi05LjI1IDMyMCAwIDMyMCA4OS4yNCA2NDAgODkuMjQgMjU2LjEzIDAgMzA3LjI4LTU3LjE2IDQ4MS41OC04MFYxNDBIMHoiIGZpbGwtb3BhY2l0eT0iLjUiLz48cGF0aCBkPSJNMTI4MCA1MS43NmMtMjAxIDEyLjQ5LTI0Mi40MyA1My40LTUxMy41OCA1My40LTMyMCAwLTMyMC01Ny02NDAtNTctNDguODUuMDEtOTAuMjEgMS4zNS0xMjYuNDIgMy42VjE0MGgxMjgweiIvPjwvZz48L3N2Zz4=);
+  position: relative;
+  bottom: 0;
+  height: 100px;
+  z-index: 1;
+  transform: scale(1,1);
+  top: 155px;  
+}
+
 .talk-main {
   padding: 27px 0;
   width: 80%;
@@ -1313,6 +1323,9 @@ a {
   box-shadow : rgba(0, 0, 0, 0.2) 0px 20px 30px 0px;
 }
 
+
+
+
 /* footer */
 
 .foot h4 {
@@ -1339,7 +1352,7 @@ footer {
 }
 
 .social-icons a:hover {
-  color: #1DA1F2; /* Twitter rangini misol uchun */
+  color: #1DA1F2; 
 }
 
 .foot {
